@@ -34,7 +34,9 @@ function Bio() {
               }}
             />
             <p>
-              Ben Whitfield
+              Written by <strong>{author}</strong>, who forgets a bunch of stuff
+              all the time.
+              {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
               </a>
@@ -48,7 +50,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed

@@ -4,7 +4,7 @@ module.exports = {
     title: `Things I forget`,
     author: `Ben Whitfield`,
     description: `A site where I note down things I'm constantly having to google to implement/code I reuse a LOT `,
-    siteUrl: ``,
+    siteUrl: `https://goofy-heyrovsky-7a1cee.netlify.com`,
     social: {
       twitter: `uptheoldkentroad`,
     },

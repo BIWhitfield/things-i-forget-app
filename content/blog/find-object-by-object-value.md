@@ -1,5 +1,5 @@
 ---
-path: find-object-in-array-by-object-property
+path: find-object-in-array-by-object-property/index
 date: 2021-01-19T17:06:45.518Z
 title: Find Object by Object Value
 description: Find a specific object inside an array based on a property of the object

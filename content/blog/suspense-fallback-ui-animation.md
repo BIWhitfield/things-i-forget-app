@@ -1,11 +1,11 @@
 ---
-path: suspense-fallback-animation/index.md
+path: /suspense-fallback-animation/index.md
 date: 2021-01-20T17:38:37.572Z
 title: Suspense Fallback UI Animation
 description: Animate a simple svg components' width and height while components
   are lazy loaded
 ---
-#What we get
+What we get
 Basic control of the width and height of the SVG. A setInterval function that count's up and down between a min and max value. Some faff with refs so we don't lose the current values as we re-render. There is probably a much better way to do this.
 
 ##SVG Component to animate:

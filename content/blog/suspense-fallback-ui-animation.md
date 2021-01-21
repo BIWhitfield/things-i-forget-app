@@ -5,10 +5,10 @@ title: Suspense Fallback UI Animation
 description: Animate a simple svg components' width and height while components
   are lazy loaded
 ---
-What we get
+### What we get
 Basic control of the width and height of the SVG. A setInterval function that count's up and down between a min and max value. Some faff with refs so we don't lose the current values as we re-render. There is probably a much better way to do this.
 
-##SVG Component to animate:
+### SVG Component to animate:
 
 ```jsx
 import React from "react";
@@ -95,7 +95,7 @@ export default Home;
 
 ```
 
-##SuspenseFallback.jsx...
+### SuspenseFallback.jsx...
 
 ```jsx
 import React from "react";
@@ -137,7 +137,7 @@ export default SuspenseFallback;
 ```
 
 
-##CSS for suspense fallback:
+### CSS for suspense fallback:
 
 ```css
 .suspense-root {
@@ -150,7 +150,7 @@ export default SuspenseFallback;
 ```
 
 
-##Use in App...
+### Use in App...
 
 ```jsx
 import { lazy, Suspense } from "react";
